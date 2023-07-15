@@ -25,7 +25,7 @@ String solo = sc2.nextLine();
 
 if(solo.equals("solo")) {
 
-System.out.println("Sur quel case se trouve le bateau ? (valeur comprise entre 0 et 5)");
+System.out.println("Sur quel case se trouve le bateau hein ? (valeur comprise entre 0 et 5)");
 int coule = sc.nextInt();
 
 Random bateau = new Random();
@@ -36,13 +36,13 @@ Random bateau = new Random();
         System.out.println("Bravo vous avez tous gagné");
         }  else {
         System.out.println("PERDU");
-        System.out.println("le bateau etait sur la case " + n );
+        System.out.println("le bateau etait bien sur la case " + n );
          }
     
         } else if (solo.equals("multi")) {
             System.out.println("quel est le nom du premier joueur?");
             String joueur1 = sc3.nextLine();
-            System.out.println("quel est le nom du deuxième joueur ?");
+            System.out.println("quel est le nom du tg joueur ?");
             String joueur2 = sc4.nextLine();
 
             System.out.println(joueur1 + " Saisi l'emplacement de ton bateau (entre 0 et 5)");
