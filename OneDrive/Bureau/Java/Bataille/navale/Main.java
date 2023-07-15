@@ -47,7 +47,7 @@ Random bateau = new Random();
 
             System.out.println(joueur1 + " Saisi l'emplacement de ton bateau (entre 0 et 5)");
             int bateauJoueur1 = sc4.nextInt();
-            System.out.println(joueur2 + " saisi l'emplacement de ton bateau (entre 0 et 5)");
+            System.out.println(joueur2 + " saisi l'emplacement mep de ton bateau (entre 0 et 5)");
             int bateauJoueur2 = sc5.nextInt();
 
 
