@@ -33,7 +33,7 @@ Random bateau = new Random();
 
         if(coule == n) {
     
-        System.out.println("Bravo vous avez gagné");
+        System.out.println("Bravo vous avez tous gagné");
         }  else {
         System.out.println("PERDU");
         System.out.println("le bateau etait sur la case " + n );
