@@ -42,12 +42,12 @@ Random bateau = new Random();
         } else if (solo.equals("multi")) {
             System.out.println("quel est le nom du premier joueur?");
             String joueur1 = sc3.nextLine();
-            System.out.println("quel est le nom du tg joueur ?");
+            System.out.println("quel est le nom deuxieme joueur ?");
             String joueur2 = sc4.nextLine();
 
             System.out.println(joueur1 + " Saisi l'emplacement de ton bateau (entre 0 et 5)");
             int bateauJoueur1 = sc4.nextInt();
-            System.out.println(joueur2 + " saisi l'emplacement mep de ton bateau (entre 0 et 5)");
+            System.out.println(joueur2 + " saisi l'emplacement de ton bateau (entre 0 et 5)");
             int bateauJoueur2 = sc5.nextInt();
 
 
