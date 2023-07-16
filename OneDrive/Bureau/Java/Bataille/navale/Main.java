@@ -40,7 +40,7 @@ Random bateau = new Random();
          }
     
         } else if (solo.equals("multi")) {
-            System.out.println("quel est le nom du premier joueur?");
+            System.out.println("écrivez le nom du premier joueur?");
             String joueur1 = sc3.nextLine();
             System.out.println("quel est le nom deuxieme joueur ?");
             String joueur2 = sc4.nextLine();
